@@ -39,7 +39,7 @@ h2 {
 p {
     font-family: Poppins;
     color: hsl(0, 2%, 58%);
-line-height: 28px;
+    line-height: 28px;
 }
 
 body {
@@ -64,22 +64,24 @@ body {
     padding: 3rem;
 
 }
-@media(min-width:800px){
-    .layout-grid{
+
+@media(min-width:800px) {
+    .layout-grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
 .layout-grid>* {
     flex: 2;
 }
 
 
- .col {
+.col {
     display: grid;
     align-content: center;
     place-items: center;
     gap: var(--gap);
-} 
+}
 
 .card {
     padding: 2rem;
@@ -103,7 +105,8 @@ body {
 .blue {
     color: hsl(212, 86%, 64%);
 }
-.image{
+
+.image {
     display: block;
     margin-left: auto;
     margin-top: 2rem;
